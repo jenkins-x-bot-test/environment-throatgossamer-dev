@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:throatgossamer/adminUser:password
+  username: admin
+dashboardAuthID: vault:throatgossamer:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:throatgossamer:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:throatgossamer/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:throatgossamer/prow:hmacToken
